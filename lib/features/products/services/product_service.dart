@@ -1,6 +1,6 @@
 import 'dart:convert';
-import '../../../core/api/api_client.dart';
-import '../../../core/utils/app_constants.dart';
+import '../../../../core/api/api_client.dart';
+import '../../../../core/utils/app_constants.dart';
 import '../models/product_model.dart';
 
 class ProductService {

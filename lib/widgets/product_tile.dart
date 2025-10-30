@@ -1,5 +1,5 @@
-import 'package:dummyjson/products/models/product_model.dart';
-import 'package:dummyjson/products/screens/product_detail_screen.dart';
+import 'package:dummyjson/features/products/models/product_model.dart';
+import 'package:dummyjson/features/products/screens/product_detail_screen.dart';
 import 'package:flutter/material.dart';
 
 class ProductTile extends StatelessWidget {

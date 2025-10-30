@@ -1,4 +1,4 @@
-import 'package:dummyjson/products/providers/product_provider.dart';
+import 'package:dummyjson/features/products/providers/product_provider.dart';
 import 'package:dummyjson/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
