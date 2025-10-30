@@ -1,3 +1,5 @@
+import 'package:dummyjson/cart/providers/cart_provider.dart';
+import 'package:dummyjson/features/cart/providers/cart_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../models/product_model.dart';
