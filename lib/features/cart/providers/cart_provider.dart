@@ -45,12 +45,6 @@ class CartProvider with ChangeNotifier {
     notifyListeners();
   }
 
-  void clear() {
-    _quantities.clear();
-    _save();
-    notifyListeners();
-  }
-
   int getQuantity(int id) => _quantities[id] ?? 0;
 
   double getTotal(List<ProductModel> items) {

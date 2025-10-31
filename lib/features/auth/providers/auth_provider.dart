@@ -24,7 +24,6 @@ class AuthProvider with ChangeNotifier {
       final token = await _authService.login(username, password);
       if (token != null) {
         await LocalStorage.saveToken(token);
-        _user = await _authService.getUserProfile();
       }
     } catch (e) {
       _error = e.toString();
@@ -32,23 +31,5 @@ class AuthProvider with ChangeNotifier {
       _isLoading = false;
       notifyListeners();
     }
-  }
-
-  Future<void> loadUser() async {
-    final token = LocalStorage.getToken();
-    if (token != null) {
-      try {
-        _user = await _authService.getUserProfile();
-      } catch (_) {
-        await LocalStorage.clear();
-      }
-    }
-    notifyListeners();
-  }
-
-  Future<void> logout() async {
-    _user = null;
-    await LocalStorage.clear();
-    notifyListeners();
   }
 }

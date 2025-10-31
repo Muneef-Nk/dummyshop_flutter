@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import '../models/product_model.dart';
-import '../services/product_service.dart';
+import '../services/product_list_service.dart';
 
-class ProductProvider with ChangeNotifier {
-  final _service = ProductService();
+class ProductListProvider with ChangeNotifier {
+  final _service = ProductListService();
 
-  List<ProductModel> _products = [];
+  final List<ProductModel> _products = [];
   bool _isLoading = false;
   bool _hasMore = true;
   int _skip = 0;
