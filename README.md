@@ -17,14 +17,16 @@ A **modern Flutter e-commerce application** built using the [DummyJSON API](http
 
 ---
 
-## App Screenshots
+
+## 📱 App Screenshots
+
 | Splash | Login | Product List | Product Detail |
 |:------:|:------:|:-------------:|:---------------:|
-| ![Splash](screenshots/Screenshot 2025-10-31 120238.png) | ![Login](screenshots/Screenshot 2025-10-31 120224.png) | ![List](screenshots/Screenshot_2025-10-31_113608.png) | ![Detail](screenshots/Screenshot_2025-10-31_113554.png) |
+| ![Splash](https://github.com/Muneef-Nk/dummyshop_flutter/blob/main/screenshots/splash.png?raw=true) | ![Login](https://github.com/Muneef-Nk/dummyshop_flutter/blob/main/screenshots/login.png?raw=true) | ![List](https://github.com/Muneef-Nk/dummyshop_flutter/blob/main/screenshots/Screenshot_2025-10-31_113608.png?raw=true) | ![Detail](https://github.com/Muneef-Nk/dummyshop_flutter/blob/main/screenshots/Screenshot_2025-10-31_113554.png?raw=true) |
 
 | Wishlist | Cart | Profile | Loading |
 |:---------:|:----:|:---------:|:---------:|
-| ![Wishlist](screenshots/Screenshot 2025-10-31 113714.png) | ![Cart](screenshots/Screenshot_2025-10-31_113646.png) | ![Profile](screenshots/Screenshot_2025-10-31_113625.png) | ![Loading](screenshots/Screenshot 2025-10-31 113706.png) |
+| ![Wishlist](https://github.com/Muneef-Nk/dummyshop_flutter/blob/main/screenshots/wishlist.png?raw=true) | ![Cart](https://github.com/Muneef-Nk/dummyshop_flutter/blob/main/screenshots/Screenshot_2025-10-31_113646.png?raw=true) | ![Profile](https://github.com/Muneef-Nk/dummyshop_flutter/blob/main/screenshots/Screenshot_2025-10-31_113625.png?raw=true) | ![Loading](https://github.com/Muneef-Nk/dummyshop_flutter/blob/main/screenshots/Screenshot_2025-10-31_113700.png?raw=true) |
 
 ---
 
